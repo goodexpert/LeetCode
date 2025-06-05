@@ -27,7 +27,7 @@ var addTwoNumbers = function(l1, l2) {
     prev = newNode;
 
     l1 = (l1 != null ? l1.next : null);
-    l2 = (l2 != null ? l2.next : null)
+    l2 = (l2 != null ? l2.next : null);
     value = Math.floor(value / 10);
   }
   return head;
