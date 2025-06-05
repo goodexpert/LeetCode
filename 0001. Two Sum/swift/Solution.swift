@@ -1,16 +1,17 @@
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var result = Array(repeating: -1, count: 2)
+        var diff: [Int:Int] = [:];
 
-        for i in 0 ..< nums.count - 1 {
-            for j in i + 1 ..< nums.count {
-                if nums[i] + nums[j] == target {
-                    result[0] = i
-                    result[1] = j
-                    return result
-                }
+        for i in 0 ..< nums.count {
+            let value = nums[i]
+            let found = target - value
+
+            guard let index = diff[found] else {
+                diff[value] = i
+                continue
             }
+            return [index, i]
         }
-        return result
+        return [-1, -1]
     }
 }

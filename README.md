@@ -16,6 +16,7 @@ The goal is to improve problem-solving skills while becoming fluent in different
 This repository includes solutions in the following languages:
 
 - ✅ C
+- ✅ C#
 - ✅ C++
 - ✅ Java
 - ✅ JavaScript
@@ -32,11 +33,11 @@ File names indicate the language for clarity and easy navigation.
 
 ## ✅ Progress Tracking
 
-| Problem No. | Title           | C   | C++ | Java | JS  | Kotlin | Python | Swift | TS  |
-|-------------|-----------------|-----|-----|------|-----|--------|--------|-------|-----|
-| 0001        | Two Sum         | ✅   | ✅  | ✅    | ✅  | ✅     | ✅     | ✅     | ✅  |
-| 0002        | Add Two Numbers | ✅   | ✅  | ✅    | ✅  | ✅     | ✅     | ✅     | ✅  |
-| 0003        | Longest Substring Without Repeating Characters | ❌   | ❌  | ❌    | ❌  | ❌     | ❌     | ❌     | ❌  |
+| Problem No. | Title           | C   | C#  | C++ | Java | JS  | Kotlin | Python | Swift | TS  |
+|-------------|-----------------|-----|-----|-----|------|-----|--------|--------|-------|-----|
+| 0001        | Two Sum         | ✅   | ✅  | ✅  | ✅    | ✅  | ✅     | ✅     | ✅     | ✅  |
+| 0002        | Add Two Numbers | ✅   | ❌  | ✅  | ✅    | ✅  | ✅     | ✅     | ✅     | ✅  |
+| 0003        | Longest Substring Without Repeating Characters | ❌   | ❌  | ❌  | ❌    | ❌  | ❌     | ❌     | ❌     | ❌  |
 <!-- Add more rows as you progress -->
 
 ## 📅 Challenge Plan

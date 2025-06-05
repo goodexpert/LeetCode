@@ -1,16 +1,16 @@
 class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        val result = intArrayOf(-1, -1)
+        val diff = HashMap<Int, Int>()
 
-        for (i in 0 until nums.count() - 1) {
-            for (j in i + 1 until nums.count()) {
-                if (nums[i] + nums[j] == target) {
-                    result[0] = i
-                    result[1] = j
-                    return result
-                }
+        for (i in 0 until nums.count()) {
+            val value = nums[i]
+            val found = target - value
+
+            diff.get(found)?.let {
+                return intArrayOf(it, i)
             }
+            diff.put(value, i)
         }
-        return result
+        return intArrayOf(-1, -1)
     }
 }
